@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Web Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Mobile Web Demo</h1>
+        <nav>
+            <button id="menu-toggle">☰ Menu</button>
+            <ul id="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <p>This is a simple mobile-friendly website where you can give feedback.</p>
+        <button>Click Me</button>
+
+        <h2>Send Us Feedback</h2>
+        <form action="https://formspree.io/f/tygakonneh05@gmail.com" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Feedback</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mobile Web Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
